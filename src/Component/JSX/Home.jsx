@@ -11,6 +11,7 @@ const Home = () => {
     <HeroSection myData={data}/>
     <Services />
     <Trusted />
+    
     </>
   )
 }

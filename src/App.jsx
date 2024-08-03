@@ -11,6 +11,7 @@ import Errorpage from './Component/JSX/Errorpage';
 import { GlobalStyle } from '../GlobalStyle';
 import { ThemeProvider } from 'styled-components';
 import Header from './Component/JSX/Header';
+import Footer from './Component/JSX/Footer';
 
 function App() {
  const theme = {
@@ -51,8 +52,8 @@ function App() {
       <Route path='/product' element={<SingleProduct />} />
       <Route path='/cart' element={<Cart />} />
       <Route path='/*' element={<Errorpage />} />
-     
       </Routes>
+      <Footer />
     </Router>
     </ThemeProvider>
   )

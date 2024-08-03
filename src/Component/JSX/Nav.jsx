@@ -5,7 +5,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { CgClose, CgMenu } from "react-icons/cg";
 
 const Nav = () => {
-  const [menuIcon,setmenuIcon]= useState();
+  const [menuIcon,setmenuIcon]= useState("");
 
   const Nav = styled.nav`
     .navbar-lists {
