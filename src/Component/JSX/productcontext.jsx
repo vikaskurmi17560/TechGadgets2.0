@@ -35,7 +35,6 @@ const AppProvider = ({ children }) => {
     <AppContext.Provider value={{ ...state }}>{children}</AppContext.Provider>
   );
 };
-
 // custom hooks
 const useProductContext = () => {
   return useContext(AppContext);
