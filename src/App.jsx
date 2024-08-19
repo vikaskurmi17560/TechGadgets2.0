@@ -49,14 +49,14 @@ function App() {
       <Route path='/about' element={<About />} />
       <Route path='/products' element={<Products/>} />
       <Route path='/contact' element={<Contact />} />
-      <Route path='/product' element={<SingleProduct />} />
+      <Route path='/singleproduct/:id' element={<SingleProduct />} />
       <Route path='/cart' element={<Cart />} />
       <Route path='/*' element={<Errorpage />} />
       </Routes>
       <Footer />
     </Router>
     </ThemeProvider>
-  )
+  )  
 }
 
 export default App
