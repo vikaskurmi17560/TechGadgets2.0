@@ -1,12 +1,12 @@
 
 import './App.css'
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
-import Home from './Component/JSX/Home';
-import About from './Component/JSX/About';
-import Products from './Component/JSX/Products';
-import Contact from './Component/JSX/Contact'
+import Home from './Component/Pages/Home';
+import About from './Component/Pages/About';
+import Products from './Component/Pages/Products';
+import Contact from './Component/Pages/Contact'
 import SingleProduct from './Component/JSX/SingleProduct';
-import Cart from './Component/JSX/Cart';
+import Cart from './Component/Pages/Cart';
 import Errorpage from './Component/JSX/Errorpage';
 import { GlobalStyle } from '../GlobalStyle';
 import { ThemeProvider } from 'styled-components';

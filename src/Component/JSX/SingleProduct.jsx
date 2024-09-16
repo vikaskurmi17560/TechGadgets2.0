@@ -1,14 +1,15 @@
 import { useEffect } from "react";
 import styled from "styled-components";
 import { useParams } from "react-router-dom";
-import { useProductContext } from "./productcontext";
+import { useProductContext } from "../Context/ProductContext";
 import PageNavigation from "./PageNavigation";
 import MyImage from "./MyImage";
 import { Container } from '../Styles/Container';
 import FormatPrice from "../Helper/FormatPrice";
 import { MdSecurity } from "react-icons/md";
 import { TbTruckDelivery, TbReplace } from "react-icons/tb";
-import Star from "./Star";
+import Star from "../Helper/Star";
+import AddToCart from "./AddToCart";
 
 
 const API = "https://api.pujakaitem.com/api/products";
@@ -78,7 +79,7 @@ const SingleProduct = () => {
 
               <div className="product-warranty-data">
                 <TbTruckDelivery className="warranty-icon" />
-                <p> Delivered </p>
+                <p>TechGadgets Delivered </p>
               </div>
 
               <div className="product-warranty-data">
@@ -93,12 +94,14 @@ const SingleProduct = () => {
                 <span> {stock > 0 ? "In Stock" : "Not Available"}</span>
               </p>
               <p>
-                ID : <span> 21011513 </span>
+                ID : <span> {id} </span>
               </p>
               <p>
                 Brand :<span> {company} </span>
               </p>
             </div>
+            <hr />
+            {stock > 0 && <AddToCart product={singleProduct} />}
           </div>
         </div>
       </Container>

@@ -1,9 +1,9 @@
 import React from 'react'
-import HeroSection from './HeroSection'
+import HeroSection from '../JSX/HeroSection'
 
 const About = () => {
   const data={
-    name:"Tech Ecommerce",
+    name:"TechGadgets Ecommerce",
   };
   return (
      <HeroSection  myData={data} />

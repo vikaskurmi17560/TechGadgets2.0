@@ -1,14 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom' 
-import Image from "../Images/logo.png"
 import Nav from "./Nav"
 
 const Header = () => {
   return (
    <MainHeader>
      <NavLink to='/'>
-        <img src={Image} className="logo" alt="logo image" />
+        <h2 className="logo">TechGadgets</h2>
     </NavLink> 
     <Nav />
    </MainHeader>
@@ -25,6 +24,7 @@ position: relative;
 
 .logo{
 height: 5rem;
+font-weight: 800;
 }
 @media(max-width: ${({theme}) => theme.media.mobile}){
 }

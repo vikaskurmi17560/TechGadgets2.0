@@ -1,11 +1,11 @@
 import React from 'react'
-import HeroSection from './HeroSection'
-import Services from './Services';
-import Trusted from './Trusted';
-import FeatureProduct from './FeatureProducts';
+import HeroSection from '../JSX/HeroSection'
+import Services from '../JSX/Services';
+import Trusted from '../JSX/Trusted';
+import FeatureProduct from '../JSX/FeatureProducts';
 const Home = () => {
   const data = {
-    name:"Tech Gedgets",
+    name:"TechGadgets",
   };
   return (
     <>
