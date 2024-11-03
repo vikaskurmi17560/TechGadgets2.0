@@ -41,7 +41,8 @@ To get a local copy up and running, follow these steps:
 4. Visit the application: Open your browser and go to [http://localhost:3000](http://localhost:3000) (or the port specified in your terminal).
 
 ## Deployment
--**NOTE** When you click on this URL, you may encounter an error page. However, don’t worry! Simply click the "Go Back to Home" button to return to the main page and continue exploring the fantastic features of the TechGadgets application.
+
+- **NOTE** :  When you click on this URL, you may encounter an error page. However, don’t worry! Simply click the "Go Back to Home" button to return to the main page and continue exploring the fantastic features of the TechGadgets application.
 
 TechGadgets is designed to provide an engaging experience for users looking to browse, filter, and purchase a wide range of tech products. With its clean and modern interface, users can easily navigate through different categories and access detailed product information
 
